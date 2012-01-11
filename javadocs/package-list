@@ -1,0 +1,5 @@
+org.apache.commons.httpclient.contrib.ssl
+org.apache.commons.ssl
+org.apache.commons.ssl.asn1
+org.apache.commons.ssl.rmi
+org.apache.commons.ssl.util

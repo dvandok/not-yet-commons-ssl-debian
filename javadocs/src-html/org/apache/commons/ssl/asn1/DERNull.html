@@ -1,0 +1,86 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package org.apache.commons.ssl.asn1;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    import java.io.IOException;<a name="line.3"></a>
+<FONT color="green">004</FONT>    <a name="line.4"></a>
+<FONT color="green">005</FONT>    /** A NULL object. */<a name="line.5"></a>
+<FONT color="green">006</FONT>    public class DERNull<a name="line.6"></a>
+<FONT color="green">007</FONT>        extends ASN1Null {<a name="line.7"></a>
+<FONT color="green">008</FONT>        public static final DERNull INSTANCE = new DERNull();<a name="line.8"></a>
+<FONT color="green">009</FONT>    <a name="line.9"></a>
+<FONT color="green">010</FONT>        byte[] zeroBytes = new byte[0];<a name="line.10"></a>
+<FONT color="green">011</FONT>    <a name="line.11"></a>
+<FONT color="green">012</FONT>        public DERNull() {<a name="line.12"></a>
+<FONT color="green">013</FONT>        }<a name="line.13"></a>
+<FONT color="green">014</FONT>    <a name="line.14"></a>
+<FONT color="green">015</FONT>        void encode(<a name="line.15"></a>
+<FONT color="green">016</FONT>            DEROutputStream out)<a name="line.16"></a>
+<FONT color="green">017</FONT>            throws IOException {<a name="line.17"></a>
+<FONT color="green">018</FONT>            out.writeEncoded(NULL, zeroBytes);<a name="line.18"></a>
+<FONT color="green">019</FONT>        }<a name="line.19"></a>
+<FONT color="green">020</FONT>    }<a name="line.20"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>
