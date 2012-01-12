@@ -10,3 +10,4 @@ JAVA_HOME := /usr/lib/jvm/default-java
 
 get-orig-source:
 	uscan --download-version $(DEB_UPSTREAM_VERSION) --force-download --rename
+
