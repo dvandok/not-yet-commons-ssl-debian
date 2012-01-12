@@ -6,9 +6,9 @@ include /usr/share/cdbs/1/class/ant.mk
 JAVA_HOME := /usr/lib/jvm/default-java
 DEB_ANT_BUILD_TARGET	:= jar
 
-binary-post-install/$(DEB_SOURCE_PACKAGE)::
-	mh_installpoms -p$(DEB_SOURCE_PACKAGE)
-	mh_installjar -p$(DEB_SOURCE_PACKAGE) -l debian/pom.xml build/common-ssl.jar
+binary-post-install/libnot-yet-commons-ssl-java::
+	mh_installpoms -plibnot-yet-commons-ssl-java
+	mh_installjar -plibnot-yet-commons-ssl-java -l debian/pom.xml build/common-ssl.jar
 
 get-orig-source:
 	uscan --download-version $(DEB_UPSTREAM_VERSION) --force-download --rename
