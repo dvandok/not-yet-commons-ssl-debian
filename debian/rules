@@ -1,12 +1,14 @@
 #!/usr/bin/make -f
 
-#include /usr/share/cdbs/1/rules/debhelper.mk
-#include /usr/share/cdbs/1/class/ant.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/ant.mk
 
 JAVA_HOME := /usr/lib/jvm/default-java
+DEB_ANT_BUILD_TARGET	:= jar
 
-%:
-	dh $@ --with javahelper
+binary-post-install/$(DEB_SOURCE_PACKAGE)::
+	mh_installpoms -p$(DEB_SOURCE_PACKAGE)
+	mh_installjar -p$(DEB_SOURCE_PACKAGE) -l debian/pom.xml build/common-ssl.jar
 
 get-orig-source:
 	uscan --download-version $(DEB_UPSTREAM_VERSION) --force-download --rename
