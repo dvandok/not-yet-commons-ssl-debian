@@ -1,0 +1,22 @@
+Source: not-yet-commons-ssl
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>
+Build-Depends: debhelper (>= 7), cdbs, default-jdk, maven-debian-helper (>= 1.4)
+Standards-Version: 3.9.1
+Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/not-yet-commons-ssl
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/not-yet-commons-ssl
+Homepage: http://juliusdavies.ca/commons-ssl/ 
+
+Package: libnot-yet-commons-ssl-java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: Unnamed - org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9
+ We're calling this library "Not-Yet-Commons-SSL" since we have the intention
+ of one day becoming an official Apache project. Not-Yet-Commons-SSL was
+ originally developed by Credit Union Central of British Columbia. The webpages,
+ releases, and code here on juliusdavies.ca have no relationship to the
+ Apache Software Foundation, but all code is licensed under ASL 2.0.
+
