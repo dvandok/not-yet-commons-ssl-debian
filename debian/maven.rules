@@ -16,4 +16,4 @@
 # and version starting with 3., replacing the version with 3.x
 #   junit junit jar s/3\\..*/3.x/
 
-org.apache.commons.ssl not-yet-commons-ssl jar * * *
+org.apache.commons.ssl not-yet-commons-ssl jar s/.*/debian/ * *
