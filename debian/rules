@@ -8,7 +8,7 @@ DEB_ANT_BUILD_TARGET	:= jar
 
 binary-post-install/libnot-yet-commons-ssl-java::
 	mh_installpoms -plibnot-yet-commons-ssl-java
-	mh_installjar -plibnot-yet-commons-ssl-java -l debian/pom.xml build/common-ssl.jar
+	mh_installjar -plibnot-yet-commons-ssl-java -l debian/pom.xml build/commons-ssl.jar
 
 get-orig-source:
 	uscan --download-version $(DEB_UPSTREAM_VERSION) --force-download --rename
