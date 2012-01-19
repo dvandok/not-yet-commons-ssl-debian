@@ -20,6 +20,6 @@ Description: Not-yet-commons-SSL is a library to make SSL and Java easier
  and it automatically detects the type of KeyMaterial or
  TrustMaterial.
  .
- It's called "Not-Yet-Commons-SSL" since we have the intention of one
- day becoming an official Apache project. It currently has no
- affiliation with the Apache Software Foundation.
+ It's called "Not-Yet-Commons-SSL" because of the intention of one day
+ making it an official Apache project. It currently has no affiliation
+ with the Apache Software Foundation.
