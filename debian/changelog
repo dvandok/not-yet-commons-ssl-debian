@@ -1,6 +1,5 @@
-not-yet-commons-ssl (0.3.9-1) UNRELEASED; urgency=low
+not-yet-commons-ssl (0.3.9-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your
-    ITP>
+  * Initial release (Closes: #656453)
 
  -- Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>  Wed, 11 Jan 2012 17:02:41 +0100
