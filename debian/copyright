@@ -14,7 +14,17 @@ Copyright: 2012, Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>
 License: Apache-2.0
 
 Files: src/java/org/apache/commons/httpclient/contrib/ssl/*
+ src/java/org/apache/commons/ssl/Base64.java
 Copyright: 1999-2006 The Apache Software Foundation
+License: Apache-2.0
+
+Files: src/java/org/apache/commons/ssl/util/PublicKeyDeriver.java
+Copyright: 2007 Chad La Joie
+License: Apache-2.0
+
+Files:  src/java/org/apache/commons/ssl/HostnameVerifier.java
+Copyright: Julius Davies
+	   Sebastian Hauer
 License: Apache-2.0
   On Debian GNU/Linux system you can find the complete text of the
   Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'
