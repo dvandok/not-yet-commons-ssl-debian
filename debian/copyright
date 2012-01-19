@@ -3,7 +3,8 @@ Upstream-Name: not-yet-commons-ssl
 Upstream-Contact: Julius Davies <juliusdavies@gmail.com>
 Source: http://juliusdavies.ca/commons-ssl/
 License: Apache-2.0
-Copyright: 
+Copyright: Credit Union Central of British Columbia
+
 Files: *
 Copyright: 2005-2012, Julius Davies <juliusdavies@gmail.com>
 License: Apache-2.0
