@@ -1,0 +1,3 @@
+version=3
+http://juliusdavies.ca/commons-ssl/download.html \
+/commons-ssl/not-yet-commons-ssl-(.+).zip
