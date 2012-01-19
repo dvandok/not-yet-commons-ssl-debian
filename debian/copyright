@@ -23,8 +23,8 @@ Copyright: 2007 Chad La Joie
 License: Apache-2.0
 
 Files:  src/java/org/apache/commons/ssl/HostnameVerifier.java
-Copyright: Julius Davies
-	   Sebastian Hauer
+Copyright: 2006 Julius Davies
+	   2006 Sebastian Hauer
 License: Apache-2.0
   On Debian GNU/Linux system you can find the complete text of the
   Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'
