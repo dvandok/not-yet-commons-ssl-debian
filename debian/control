@@ -12,10 +12,14 @@ Package: libnot-yet-commons-ssl-java
 Architecture: all
 Depends: ${misc:Depends}, ${maven:Depends}
 Recommends: ${maven:OptionalDepends}
-Description: Not-yet-commons-SSL
- We're calling this library "Not-Yet-Commons-SSL" since we have the intention
- of one day becoming an official Apache project. Not-Yet-Commons-SSL was
- originally developed by Credit Union Central of British Columbia. The webpages,
- releases, and code here on juliusdavies.ca have no relationship to the
- Apache Software Foundation, but all code is licensed under ASL 2.0.
-
+Description: Not-yet-commons-SSL is a library to make SSL and Java easier
+ This library implements SSL functionality in a way that is easy and
+ flexible. It improves security by checking CRLs by default. It allows
+ options to be set or unset for each SSLSocketFactory. It supports
+ many different formats of PKCS8 and OpenSSL Encrypted Private Keys,
+ and it automatically detects the type of KeyMaterial or
+ TrustMaterial.
+ .
+ It's called "Not-Yet-Commons-SSL" since we have the intention of one
+ day becoming an official Apache project. It currently has no
+ affiliation with the Apache Software Foundation.
