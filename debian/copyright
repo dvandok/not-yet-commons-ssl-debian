@@ -1,15 +1,19 @@
 Format: http://dep.debian.net/deps/dep5/
-Upstream-Name: Unnamed - org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9
+Upstream-Name: not-yet-commons-ssl
+Upstream-Contact: Julius Davies <juliusdavies@gmail.com>
 Source: http://juliusdavies.ca/commons-ssl/
-
+License: Apache-2.0
+Copyright: 
 Files: *
-Copyright: 2012, juliusdavies.ca
+Copyright: 2005-2012, Julius Davies <juliusdavies@gmail.com>
 License: Apache-2.0
 
 Files: debian/*
 Copyright: 2012, Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>
 License: Apache-2.0
 
+Files: src/java/org/apache/commons/httpclient/contrib/ssl/*
+Copyright: 1999-2006 The Apache Software Foundation
 License: Apache-2.0
   On Debian GNU/Linux system you can find the complete text of the
   Apache-2.0 license in '/usr/share/common-licenses/Apache-2.0'
