@@ -7,6 +7,8 @@ Build-Depends: debhelper (>= 7), cdbs, default-jdk, maven-debian-helper (>= 1.4)
  liblog4j1.2-java, libcommons-httpclient-java
 Standards-Version: 3.9.3
 Homepage: http://juliusdavies.ca/commons-ssl/ 
+Vcs-git: git://github.com/dvandok/not-yet-commons-ssl-debian.git
+Vcs-browser: https://github.com/dvandok/not-yet-commons-ssl-debian
 
 Package: libnot-yet-commons-ssl-java
 Architecture: all
