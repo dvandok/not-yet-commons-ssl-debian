@@ -1,3 +1,12 @@
+not-yet-commons-ssl (0.3.9-2) unstable; urgency=low
+
+  * extended copyright details after contacting upstream author
+  * removed duplicate cdbs build dependency
+  * updated copyright header
+  * updated to Debian policy 3.9.3
+
+ -- Dennis van Dok (Software Engineer) <dennisvd@nikhef.nl>  Thu, 15 Mar 2012 23:45:36 +0100
+
 not-yet-commons-ssl (0.3.9-1) unstable; urgency=low
 
   * Initial release (Closes: #656453)
